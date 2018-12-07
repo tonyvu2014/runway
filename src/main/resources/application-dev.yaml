@@ -7,8 +7,17 @@ spring:
     hibernate:
       ddl-auto: none
     open-in-view: true
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true:
+  cache:
+    type: infinispan
+    infinispan:
+      config: classpath:cache/infinispan.xml
   flyway:
-    baseline-on-migrate: true
+    schemas: runway
 
 server:
   port: 8080
