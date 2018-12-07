@@ -13,5 +13,9 @@ Spring Boot template project which use various default artifacts and settings:
 - *java 11* is used
 - *maven jib* plugin for docker image build and push
 
+## To start up
+
+**mvn spring-boot:run**
+
 
 
