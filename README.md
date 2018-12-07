@@ -1,5 +1,5 @@
 # runway
-Spring Boot template project which use various artifact
+Spring Boot template project which use various default artifacts and settings:
 
 - *maven* for dependency management
 - *postgres* for database
